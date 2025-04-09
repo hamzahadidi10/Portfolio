@@ -1,0 +1,45 @@
+img{
+    margin-top: 2px;
+    margin-bottom: 20px;
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+
+}
+h1{
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    width: 300px;
+    margin: 0 auto;
+    
+}
+h2{
+    color:rgb(28, 138, 16);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    color: rgb(151, 195, 20);
+}
+body{
+    background-color: azure;
+}
+
+p{
+    color: #0e3f14a2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+a:hover, a:active {
+    text-decoration: underline;
+}
+.cpr{
+    width: 350px;
+    margin: 0 auto;
+}
+
+     
+
