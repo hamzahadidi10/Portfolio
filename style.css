@@ -27,7 +27,7 @@ h3 {
 }
 
 /* Section Styles */
-.intro, .stdl, .Exp, .proj, .certif {
+.intro, .stdl, .Exp, .proj, .certif, .skills {
     background-color: white;
     padding: 20px;
     margin: 20px auto;
@@ -144,7 +144,7 @@ h3 {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .intro, .stdl, .Exp, .proj, .certif {
+    .intro, .stdl, .Exp, .proj, .certif, .skills {
         width: 90%;
         padding: 15px;
     }
@@ -174,3 +174,21 @@ h3 {
 .Exp { animation-delay: 0.3s; }
 .proj { animation-delay: 0.4s; }
 .certif { animation-delay: 0.5s; }
+.nav{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: #575c60;
+    font-style: italic;
+    height:120px;
+    border-radius: 10px;
+}
+.nav h3{
+    margin-top: 0;
+    padding-top: 0;
+    height: 100px;
+    row-gap: 0;
+}
